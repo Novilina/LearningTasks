@@ -28,7 +28,13 @@ namespace _0103_WhatIsYourName
             //Печатаем, как вас зовут.
             //Вместо {0} напишится то, что хранится в 'name'
             //Вместо {1} напишится то, что хранится в 'surname'
-            Console.Write("Вас зовут {0} {1}", name, surname);
+            Console.Write("Вас зовут ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(name);
+            Console.Write(" ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(surname);
+           
 
             Console.Read();
         }

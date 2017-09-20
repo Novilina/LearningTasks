@@ -11,7 +11,8 @@ namespace _0102_ConsoleReading
             var text = Console.ReadLine();
             Console.WriteLine("Вы написали:");
             //Console.WriteLine выведет то, что сохранили в 'text' на экран
-            Console.WriteLine(text);
+            Console.Write(text);
+            Console.Write(text);
 
             Console.Read();
         }
